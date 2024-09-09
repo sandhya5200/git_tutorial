@@ -1,0 +1,17 @@
+1) taking data in objects and classes in python language for student_id,student_name,class, place 
+2) Connecting that data to postgresql database
+3)creating two apis 1st api to post the studen-id and sencondapi is to get the student_name,class, place of that particular student_id
+is it possible explain me the approach first without code for first task
+ 1) taking data in objects and classes in python language for student_id,student_name,class, place 
+2) Connecting that data to postgresql database
+3)creating two apis 1st api to post the studen-id and sencondapi is to get the student_name,class, place of that particular student_id
+is it possible explain me the approach first without code for first task
+ 
+ 
+Approach
+To create the two APIs without disturbing your existing code, you can follow these steps:
+FastAPI Setup: Import FastAPI and the necessary modules to handle HTTP requests.
+Endpoint 1 - Store Data: Create a POST endpoint that allows sending student data in JSON format to store it in the database.
+Endpoint 2 - Retrieve Data: Create a GET endpoint that retrieves the student_name, standard, and place for a given student_id.
+Maintain Separation: Keep your existing code intact by integrating it with the FastAPI app, but avoid making direct modifications to the existing logic.
+ 
